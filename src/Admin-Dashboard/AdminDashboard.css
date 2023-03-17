@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.sidebar {
+  position: fixed;
+  background-color: #181818;
+  width: 20vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.brand {
+  height: 10vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  border-bottom: 2px solid lightgray;
+  margin-bottom: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.sidebar ul li {
+  font-size: 24px;
+  padding: 10px 40px;
+  color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebar ul li:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: lightseagreen;
+}
+
+.brand i {
+  font-size: 20px;
+}
